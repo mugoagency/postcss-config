@@ -17,7 +17,6 @@ yarn add --dev stylelint @mugo-agency/postcss-config
 npm install stylelint @mugo-agency/postcss-config --save-dev
 ```
 
-
 ## Usage
 Mugo's postcss config comes bundled in `@mugo-agency/postcss-config`. 
 Add to your `postcss.config.js`
