@@ -12,6 +12,7 @@ module.exports = {
       },
     },
     "postcss-mixins",
+    "postcss-simple-vars",
     "postcss-custom-media",
     "postcss-nested",
     "postcss-simple-vars",
