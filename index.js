@@ -15,7 +15,6 @@ module.exports = {
     "postcss-simple-vars",
     "postcss-custom-media",
     "postcss-nested",
-    "postcss-simple-vars",
     "postcss-round-subpixels",
     "postcss-easings",
     "autoprefixer",
