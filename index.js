@@ -1,6 +1,6 @@
 const banner = '! Do not modify this file. Make changes via the "src" directory, then recompile.';
 
-const config = {
+module.exports = {
   plugins: [
     "postcss-simple-vars",
     {
