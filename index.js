@@ -1,4 +1,6 @@
-module.exports = {
+const banner = '! Do not modify this file. Make changes via the "src" directory and recompile.';
+
+const config = {
   plugins: [
     "postcss-simple-vars",
     {
@@ -18,10 +20,16 @@ module.exports = {
     "postcss-round-subpixels",
     "postcss-easings",
     {
+      "postcss-banner": {
+        banner: banner,
+        inline: true
+      }
+    },
+    {
       "cssnano": {
         preset: ['lite', {
           discardComments: {
-            removeAll: true,
+            removeAll: false,
           },
         }]
       },
