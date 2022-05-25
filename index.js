@@ -1,5 +1,6 @@
 module.exports = {
   plugins: [
+    "postcss-simple-vars",
     {
       "postcss-easy-import": {
         extensions: ".pcss",
@@ -12,11 +13,18 @@ module.exports = {
       },
     },
     "postcss-mixins",
-    "postcss-simple-vars",
     "postcss-custom-media",
     "postcss-nested",
     "postcss-round-subpixels",
     "postcss-easings",
-    "autoprefixer",
+    {
+      "cssnano": {
+        preset: ['lite', {
+          discardComments: {
+            removeAll: true,
+          },
+        }]
+      },
+    },
   ],
 };
