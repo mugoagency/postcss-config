@@ -1,6 +1,6 @@
 {
   "name": "@mugo-agency/postcss-config",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A shareable postcss config to maintain standards across projects.",
   "main": "index.js",
   "scripts": {
