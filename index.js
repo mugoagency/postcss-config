@@ -40,7 +40,7 @@ module.exports = {
     },
     {
       "postcss-inline-svg": {
-        paths: ["_src/svgs"],
+        paths: ["src/svgs"],
       },
     },
     "postcss-mixins",
