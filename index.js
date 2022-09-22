@@ -43,8 +43,16 @@ module.exports = {
         paths: ["_src/svgs"],
       },
     },
-    "postcss-mixins",
-    "postcss-custom-media",
+    {
+      "postcss-custom-media": {
+        importFrom: '_src/styles/mixins/_breakpoints.pcss'
+      }
+    },
+    {
+      "postcss-mixins": {
+        mixinsDir: '_src/styles/mixins'
+      }
+    },
     "postcss-nested",
     "postcss-round-subpixels",
     "postcss-easings",
