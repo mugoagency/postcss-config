@@ -38,6 +38,7 @@ module.exports = {
         prefix: "_",
       },
     },
+    "postcss-nested",
     {
       "postcss-inline-svg": {
         paths: ["_src/svgs"],
@@ -53,7 +54,6 @@ module.exports = {
         mixinsDir: '_src/styles/mixins'
       }
     },
-    "postcss-nested",
     "postcss-round-subpixels",
     "postcss-easings",
     {
@@ -62,6 +62,7 @@ module.exports = {
         inline: true
       }
     },
+    "postcss-sort-media-queries",
     {
       "cssnano": {
         preset: ['lite', {
