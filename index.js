@@ -42,6 +42,8 @@ module.exports = {
     {
       "postcss-inline-svg": {
         paths: ["_src/svgs"],
+        removeFill: true, // Provide these on case-by-case basis.
+        removeStroke: true,
       },
     },
     {
