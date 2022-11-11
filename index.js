@@ -1,4 +1,4 @@
-const banner = '! Do not modify this file. Make changes via the "_src" directory, then recompile.';
+const banner = '! Do not modify this file. Make changes via the "_src" directory, then recompile..';
 
 module.exports = {
   plugins: [
