@@ -64,7 +64,6 @@ module.exports = {
         inline: true
       }
     },
-    "postcss-sort-media-queries",
     {
       "cssnano": {
         preset: ['lite', {
