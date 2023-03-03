@@ -3,7 +3,7 @@
 
 Mugo's shareable PostCSS config for use across projects.
 
-## Installation 
+## Installation
 
 Install `@mugo-agency/postcss-config`:
 
@@ -18,7 +18,7 @@ npm install @mugo-agency/postcss-config --save-dev
 ```
 
 ## Usage
-Mugo's postcss config comes bundled in `@mugo-agency/postcss-config`. 
+Mugo's postcss config comes bundled in `@mugo-agency/postcss-config`.
 Add to your `postcss.config.js`
 
 ```

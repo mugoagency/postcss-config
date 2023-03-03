@@ -1,7 +1,7 @@
 {
   "name": "@mugo-agency/postcss-config",
   "version": "0.2.5",
-  "description": "A shareable postcss config to maintain standards across projects.",
+  "description": "A shareable postcss config.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
